@@ -1,5 +1,6 @@
+'''This is a program to print the maximum possible substring from a string without any repeating charecters'''
 max = " "
-def check_uniqueness(strng):
+def check_uniqueness(strng):#Checks whether a string is unique or not
     flag = 0
     for char in strng:
         n = 0
@@ -11,7 +12,7 @@ def check_uniqueness(strng):
             break
     return flag
 
-def check_length(strng):
+def check_length(strng):#Returns the length of the string
     return len(strng)
 
 if __name__ == '__main__':
